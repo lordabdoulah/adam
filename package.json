@@ -8,6 +8,9 @@
     "dev": "NODE_ENV=development nodemon server.js",
     "build": "cd ../ && npm run build && cd server && npm start"
   },
+    "engines": {
+    "node": "22.x"
+  },
   "author": "abdoulah",
   "license": "ISC",
   "description": "Attendance Management System",
